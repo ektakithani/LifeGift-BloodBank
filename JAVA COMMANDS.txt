@@ -1,0 +1,2369 @@
+Microsoft Windows [Version 10.0.18362.535]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+6
+11
+up
+up
+com.mysql.cj.jdbc.ClientPreparedStatement: Update available_blood set Amount_Available = Amount_Available + 11 Where BloodGroup = ( Select BloodGroup from donors where id = 6)
+Issues :java.sql.SQLException: Column count doesn't match value count at row 1
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+2
+up
+up
+4
+Issues :java.sql.SQLException: Column count doesn't match value count at row 1
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+6
+10
+up
+up
+com.mysql.cj.jdbc.ClientPreparedStatement: Update available_blood set Amount_Available = Amount_Available + 10 Where BloodGroup = ( Select BloodGroup from donors where id = 6)
+1
+Available
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+5
+up
+up
+14
+Issues :java.sql.SQLException: Column count doesn't match value count at row 1
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+DbHandlerBDM.java:269: error: 'catch' without 'try'
+catch(Exception e){
+^
+DbHandlerBDM.java:272: error: 'finally' without 'try'
+finally{
+^
+DbHandlerBDM.java:212: error: 'try' without 'catch', 'finally' or resource declarations
+try{
+^
+DbHandlerBDM.java:290: error: illegal start of expression
+public boolean check(int id , int amt){
+^
+DbHandlerBDM.java:290: error: ';' expected
+public boolean check(int id , int amt){
+                    ^
+DbHandlerBDM.java:290: error: <identifier> expected
+public boolean check(int id , int amt){
+                             ^
+DbHandlerBDM.java:290: error: not a statement
+public boolean check(int id , int amt){
+                                  ^
+DbHandlerBDM.java:290: error: ';' expected
+public boolean check(int id , int amt){
+                                     ^
+DbHandlerBDM.java:375: error: reached end of file while parsing
+}//e nd of class
+ ^
+9 errors
+
+C:\DEMO\MYSQL\BloodDonationSystem>
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+DbHandlerBDM.java:269: error: 'catch' without 'try'
+catch(Exception e){
+^
+DbHandlerBDM.java:272: error: 'finally' without 'try'
+finally{
+^
+DbHandlerBDM.java:212: error: 'try' without 'catch', 'finally' or resource declarations
+try{
+^
+DbHandlerBDM.java:356: error: illegal start of type
+catch(Exception e){
+^
+DbHandlerBDM.java:359: error: illegal start of type
+finally{
+^
+DbHandlerBDM.java:359: error: ';' expected
+finally{
+       ^
+DbHandlerBDM.java:360: error: illegal start of type
+try{
+^
+DbHandlerBDM.java:360: error: <identifier> expected
+try{
+   ^
+DbHandlerBDM.java:360: error: ';' expected
+try{
+    ^
+DbHandlerBDM.java:361: error: illegal start of type
+if(conn !=null){
+  ^
+DbHandlerBDM.java:361: error: ';' expected
+if(conn !=null){
+       ^
+DbHandlerBDM.java:365: error: class, interface, or enum expected
+catch(Exception e){
+^
+DbHandlerBDM.java:367: error: class, interface, or enum expected
+}}
+^
+DbHandlerBDM.java:369: error: class, interface, or enum expected
+}//end of check
+^
+14 errors
+
+C:\DEMO\MYSQL\BloodDonationSystem>
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+DbHandlerBDM.java:269: error: 'catch' without 'try'
+catch(Exception e){
+^
+DbHandlerBDM.java:272: error: 'finally' without 'try'
+finally{
+^
+DbHandlerBDM.java:212: error: 'try' without 'catch', 'finally' or resource declarations
+try{
+^
+DbHandlerBDM.java:290: error: illegal start of expression
+public boolean check(int id , int amt){
+^
+DbHandlerBDM.java:290: error: ';' expected
+public boolean check(int id , int amt){
+                    ^
+DbHandlerBDM.java:290: error: <identifier> expected
+public boolean check(int id , int amt){
+                             ^
+DbHandlerBDM.java:290: error: not a statement
+public boolean check(int id , int amt){
+                                  ^
+DbHandlerBDM.java:290: error: ';' expected
+public boolean check(int id , int amt){
+                                     ^
+DbHandlerBDM.java:356: error: 'catch' without 'try'
+catch(Exception e){
+^
+DbHandlerBDM.java:359: error: 'finally' without 'try'
+finally{
+^
+DbHandlerBDM.java:367: error: illegal start of expression
+}}*/
+  ^
+DbHandlerBDM.java:368: error: illegal start of expression
+return available;
+^
+DbHandlerBDM.java:367: error: not a statement
+}}*/
+   ^
+DbHandlerBDM.java:368: error: not a statement
+return available;
+       ^
+14 errors
+
+C:\DEMO\MYSQL\BloodDonationSystem>
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Check.java:49: error: cannot find symbol
+boolean ans_check = new DbHandlerBDM().check(id,amount);
+                                      ^
+  symbol:   method check(int,int)
+  location: class DbHandlerBDM
+DbHandlerBDM.java:249: error: variable row is already defined in method donate(int,int)
+int row = stmt1.executeUpdate();
+    ^
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+2 errors
+
+C:\DEMO\MYSQL\BloodDonationSystem>
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+DbHandlerBDM.java:381: error: method donate(int,int) is already defined in class DbHandlerBDM
+public boolean donate(int id , int amt){
+               ^
+Check.java:49: error: cannot find symbol
+boolean ans_check = new DbHandlerBDM().check(id,amount);
+                                      ^
+  symbol:   method check(int,int)
+  location: class DbHandlerBDM
+DbHandlerBDM.java:249: error: variable row is already defined in method donate(int,int)
+int row = stmt1.executeUpdate();
+    ^
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+3 errors
+
+C:\DEMO\MYSQL\BloodDonationSystem>
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+DbHandlerBDM.java:249: error: variable row is already defined in method donate(int,int)
+int row = stmt1.executeUpdate();
+    ^
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 error
+
+C:\DEMO\MYSQL\BloodDonationSystem>
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+3
+5
+up
+up
+com.mysql.cj.jdbc.ClientPreparedStatement: Update available_blood set Amount_Available = Amount_Available + 5 Where BloodGroup = ( Select BloodGroup from donors where id = 3)
+1
+Available
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+
+C:\DEMO\MYSQL\BloodDonationSystem>
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+DbHandlerBDM.java:387: error: cannot find symbol
+return available;
+       ^
+  symbol:   variable available
+  location: class DbHandlerBDM
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 error
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+2
+up
+up
+14
+Issues :java.sql.SQLException: Column count doesn't match value count at row 1
+Available
+
+C:\DEMO\MYSQL\BloodDonationSystem>show triggers;
+'show' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\DEMO\MYSQL\BloodDonationSystem>show triggers;
+
+C:\DEMO\MYSQL\BloodDonationSystem>
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Admin
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+1
+2
+up
+up
+14
+Available
+
+C:\DEMO\MYSQL\BloodDonationSystem>
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+AdminPage.java:26: error: cannot find symbol
+transactions =new JMenuItem("Transactions");
+^
+  symbol:   variable transactions
+  location: class AdminPage
+AdminPage.java:38: error: cannot find symbol
+Transacations.add(transactions);
+                  ^
+  symbol:   variable transactions
+  location: class AdminPage
+AdminPage.java:38: error: cannot find symbol
+Transacations.add(transactions);
+^
+  symbol:   variable Transacations
+  location: class AdminPage
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+3 errors
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+AdminPage.java:38: error: cannot find symbol
+Transacations.add(transactions);
+^
+  symbol:   variable Transacations
+  location: class AdminPage
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 error
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+AdminPage.java:26: error: cannot find symbol
+transactions =new JMenuItem("Transactions");
+^
+  symbol:   variable transactions
+  location: class AdminPage
+AdminPage.java:27: error: cannot find symbol
+view =new JMenuItem("View");
+^
+  symbol:   variable view
+  location: class AdminPage
+AdminPage.java:37: error: cannot find symbol
+View.add(v);
+         ^
+  symbol:   variable v
+  location: class AdminPage
+AdminPage.java:38: error: cannot find symbol
+Transactions.add(transactions);
+                 ^
+  symbol:   variable transactions
+  location: class AdminPage
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+4 errors
+
+C:\DEMO\MYSQL\BloodDonationSystem>
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+AdminPage.java:26: error: cannot find symbol
+transactions =new JMenuItem("Transactions");
+^
+  symbol:   variable transactions
+  location: class AdminPage
+AdminPage.java:42: error: cannot find symbol
+Transactions.add(transactions);
+                 ^
+  symbol:   variable transactions
+  location: class AdminPage
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+2 errors
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+
+C:\DEMO\MYSQL\BloodDonationSystem>
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+AdminPage.java:110: error: variable al is already defined in constructor AdminPage()
+ActionListener al = (ae)->{
+               ^
+AdminPage.java:119: error: cannot find symbol
+donors.addActionListener(ams);
+                         ^
+  symbol:   variable ams
+  location: class AdminPage
+DbHandlerBDM.java:418: error: cannot find symbol
+timestamp created_at = rs.getTimestamp(3);
+^
+  symbol:   class timestamp
+  location: class DbHandlerBDM
+DbHandlerBDM.java:467: error: cannot find symbol
+timestamp created_at = rs.getTimestamp(3);
+^
+  symbol:   class timestamp
+  location: class DbHandlerBDM
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+4 errors
+
+C:\DEMO\MYSQL\BloodDonationSystem>
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+DbHandlerBDM.java:418: error: cannot find symbol
+timestamp created_at = rs.getTimestamp(3);
+^
+  symbol:   class timestamp
+  location: class DbHandlerBDM
+DbHandlerBDM.java:467: error: cannot find symbol
+timestamp created_at = rs.getTimestamp(3);
+^
+  symbol:   class timestamp
+  location: class DbHandlerBDM
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+2 errors
+
+C:\DEMO\MYSQL\BloodDonationSystem>
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+AdminPage.java:12: error: ';' expected
+JMenuItem home,logout,view_patients,view_donors,patients,donors,particular_patient_transactions,particular_donor_transactions
+                                                                                                                             ^
+DbHandlerBDM.java:492: error: invalid method declaration; return type required
+public viewParticularPatientsTransactions(int id){
+       ^
+DbHandlerBDM.java:533: error: invalid method declaration; return type required
+public viewParticularDonorsTransactions(int id){
+       ^
+ViewParticularDonorsTransactions.java:14: error: invalid method declaration; return type required
+Check()
+^
+ViewParticularPatientsTransactions.java:14: error: invalid method declaration; return type required
+Check()
+^
+5 errors
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+ViewParticularDonorsTransactions.java:14: error: invalid method declaration; return type required
+Check()
+^
+ViewParticularPatientsTransactions.java:14: error: invalid method declaration; return type required
+Check()
+^
+2 errors
+
+C:\DEMO\MYSQL\BloodDonationSystem>
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+DbHandlerBDM.java:508: error: variable id is already defined in method viewParticularPatientsTransactions(int)
+int id = rs.getInt (1);
+    ^
+DbHandlerBDM.java:530: error: incompatible types: unexpected return value
+return sb.toString();
+                  ^
+DbHandlerBDM.java:549: error: variable id is already defined in method viewParticularDonorsTransactions(int)
+int id = rs.getInt (1);
+    ^
+DbHandlerBDM.java:571: error: incompatible types: unexpected return value
+return sb.toString();
+                  ^
+ViewParticularDonorsTransactions.java:41: error: cannot find symbol
+int id = Integer.parseInt(txtpid.getText());
+                          ^
+  symbol:   variable txtpid
+  location: class ViewParticularDonorsTransactions
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+5 errors
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+DbHandlerBDM.java:508: error: variable id is already defined in method viewParticularPatientsTransactions(int)
+int id = rs.getInt (1);
+    ^
+DbHandlerBDM.java:530: error: incompatible types: unexpected return value
+return sb.toString();
+                  ^
+DbHandlerBDM.java:549: error: variable id is already defined in method viewParticularDonorsTransactions(int)
+int id = rs.getInt (1);
+    ^
+DbHandlerBDM.java:571: error: incompatible types: unexpected return value
+return sb.toString();
+                  ^
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+4 errors
+
+C:\DEMO\MYSQL\BloodDonationSystem>
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+DbHandlerBDM.java:530: error: incompatible types: unexpected return value
+return sb.toString();
+                  ^
+DbHandlerBDM.java:571: error: incompatible types: unexpected return value
+return sb.toString();
+                  ^
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+2 errors
+
+C:\DEMO\MYSQL\BloodDonationSystem>
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+ViewParticularPatientsTransactions.java:44: error: cannot find symbol
+ViewPatientT pt = new ViewPatientT();
+^
+  symbol:   class ViewPatientT
+  location: class ViewParticularPatientsTransactions
+ViewParticularPatientsTransactions.java:44: error: cannot find symbol
+ViewPatientT pt = new ViewPatientT();
+                      ^
+  symbol:   class ViewPatientT
+  location: class ViewParticularPatientsTransactions
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+2 errors
+
+C:\DEMO\MYSQL\BloodDonationSystem>
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+ViewParticularPatientsTransactions.java:44: error: ';' expected
+}
+ ^
+ViewParticularPatientsTransactions.java:82: error: <identifier> expected
+btnview.addActionListener(ac);
+                         ^
+ViewParticularPatientsTransactions.java:82: error: <identifier> expected
+btnview.addActionListener(ac);
+                            ^
+ViewParticularPatientsTransactions.java:87: error: invalid method declaration; return type required
+setVisible(true);
+^
+ViewParticularPatientsTransactions.java:87: error: illegal start of type
+setVisible(true);
+           ^
+5 errors
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+
+C:\DEMO\MYSQL\BloodDonationSystem>
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+DbHandlerBDM.java:602: error: ')' expected
+sb.append("BloodGroup :  "+bgroup + "  Amount_Available(in Litres) :  "+ amount  " \n  \n " );
+                                                                               ^
+DbHandlerBDM.java:602: error: illegal start of expression
+sb.append("BloodGroup :  "+bgroup + "  Amount_Available(in Litres) :  "+ amount  " \n  \n " );
+                                                                                            ^
+2 errors
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+AdminPage.java:142: error: variable ap is already defined in constructor AdminPage()
+ActionListener ap = (aq)->{
+               ^
+AdminPage.java:147: error: cannot find symbol
+particular_patient_transactions.addActionListener(aq);
+                                                  ^
+  symbol:   variable aq
+  location: class AdminPage
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+2 errors
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Issues : java.sql.SQLSyntaxErrorException: Table 'bloodbankmanagementdb.available_bloood' doesn't exist
+Closing..
+Closed
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Victor
+Price
+45
+4278138199
+true
+true
+age int hai toh if
+true
+True
+age ka range ka if agar int hua toh
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+4
+up
+up
+com.mysql.cj.jdbc.ClientPreparedStatement: Update available_blood set Amount_Available = Amount_Available + 4 Where BloodGroup = ( Select BloodGroup from donors where id = 1)
+1
+Available
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Ricky
+Murray
+20
+1575583249
+true
+true
+age int hai toh if
+true
+True
+age ka range ka if agar int hua toh
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+2
+2
+up
+up
+com.mysql.cj.jdbc.ClientPreparedStatement: Update available_blood set Amount_Available = Amount_Available + 2 Where BloodGroup = ( Select BloodGroup from donors where id = 2)
+1
+Available
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Roberto
+Hall
+25
+2870174323
+true
+true
+age int hai toh if
+true
+True
+age ka range ka if agar int hua toh
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Peter
+Wilson
+31
+1382156585
+true
+true
+age int hai toh if
+true
+True
+age ka range ka if agar int hua toh
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+3
+4
+up
+up
+com.mysql.cj.jdbc.ClientPreparedStatement: Update available_blood set Amount_Available = Amount_Available + 4 Where BloodGroup = ( Select BloodGroup from donors where id = 3)
+1
+Available
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+4
+1
+up
+up
+com.mysql.cj.jdbc.ClientPreparedStatement: Update available_blood set Amount_Available = Amount_Available + 1 Where BloodGroup = ( Select BloodGroup from donors where id = 4)
+1
+Available
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Kathryn
+Chambers
+56
+1749138490
+true
+true
+age int hai toh if
+true
+True
+age ka range ka if agar int hua toh
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+5
+2
+up
+up
+com.mysql.cj.jdbc.ClientPreparedStatement: Update available_blood set Amount_Available = Amount_Available + 2 Where BloodGroup = ( Select BloodGroup from donors where id = 5)
+1
+Available
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Olivia
+Rogers
+20
+0252813344
+true
+true
+age int hai toh if
+true
+True
+age ka range ka if agar int hua toh
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+6
+4
+up
+up
+com.mysql.cj.jdbc.ClientPreparedStatement: Update available_blood set Amount_Available = Amount_Available + 4 Where BloodGroup = ( Select BloodGroup from donors where id = 6)
+1
+Available
+Terra
+Powell
+22
+1127531112
+true
+true
+age int hai toh if
+true
+True
+age ka range ka if agar int hua toh
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+6
+5
+up
+up
+com.mysql.cj.jdbc.ClientPreparedStatement: Update available_blood set Amount_Available = Amount_Available + 5 Where BloodGroup = ( Select BloodGroup from donors where id = 6)
+1
+Available
+Sebastian
+Barnett
+50
+2310469289
+true
+true
+age int hai toh if
+true
+True
+age ka range ka if agar int hua toh
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+7
+5
+up
+up
+com.mysql.cj.jdbc.ClientPreparedStatement: Update available_blood set Amount_Available = Amount_Available + 5 Where BloodGroup = ( Select BloodGroup from donors where id = 7)
+1
+Available
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+8
+6
+up
+up
+com.mysql.cj.jdbc.ClientPreparedStatement: Update available_blood set Amount_Available = Amount_Available + 6 Where BloodGroup = ( Select BloodGroup from donors where id = 8)
+1
+Available
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+9
+6
+up
+up
+com.mysql.cj.jdbc.ClientPreparedStatement: Update available_blood set Amount_Available = Amount_Available + 6 Where BloodGroup = ( Select BloodGroup from donors where id = 9)
+0
+Meghan
+Butler
+40
+0315114067
+true
+true
+age int hai toh if
+true
+True
+age ka range ka if agar int hua toh
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+9
+4
+up
+up
+com.mysql.cj.jdbc.ClientPreparedStatement: Update available_blood set Amount_Available = Amount_Available + 4 Where BloodGroup = ( Select BloodGroup from donors where id = 9)
+1
+Available
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Dale
+Ramirez
+62
+5323895010
+true
+true
+age int hai toh if
+true
+True
+age ka range ka if agar int hua toh
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+10
+5
+up
+up
+com.mysql.cj.jdbc.ClientPreparedStatement: Update available_blood set Amount_Available = Amount_Available + 5 Where BloodGroup = ( Select BloodGroup from donors where id = 10)
+1
+Available
+Gabriel
+Wells
+67
+7320699556
+saab
+false
+Gabriel
+Wells
+67
+1320699556
+true
+true
+age int hai toh if
+true
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Janet
+Nichols
+43
+4977997361
+saab
+false
+Janet
+Nichols
+43
+2977997361
+saab
+false
+Janet
+Nichols
+43
+1977997361
+true
+true
+age int hai toh if
+true
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Lucas
+Larson
+25
+1750867846
+true
+true
+age int hai toh if
+true
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Erin
+Bennett
+22
+1187370347
+true
+true
+age int hai toh if
+true
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Minnie
+Garrett
+78
+1540653331
+true
+true
+age int hai toh if
+true
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Randy
+Williamson
+45
+2369673068
+saab
+false
+Randy
+Williamson
+45
+2069673068
+true
+true
+age int hai toh if
+true
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+2
+up
+Issues :java.sql.SQLException: Subquery returns more than 1 row
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+2
+2
+up
+Issues :java.sql.SQLException: Subquery returns more than 1 row
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+2
+2
+up
+Issues :java.sql.SQLException: Subquery returns more than 1 row
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Admin
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+2
+2
+up1
+up2
+Issues :java.sql.SQLException: Subquery returns more than 1 row
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Admin
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+2
+2
+up1
+up2
+{call get_available_amount(?)}
+Issues :java.sql.SQLException: Subquery returns more than 1 row
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Admin
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+2
+2
+up1
+up2
+com.mysql.cj.jdbc.CallableStatement: CALL get_available_amount(2)
+Issues :java.sql.SQLException: Subquery returns more than 1 row
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Admin
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+2
+2
+up1
+up2
+com.mysql.cj.jdbc.CallableStatement: CALL get_available_amount(2)
+Issues :java.sql.SQLException: Subquery returns more than 1 row
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Admin
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+2
+2
+up1
+up2
+com.mysql.cj.jdbc.CallableStatement: CALL get_available_amount(2)
+Issues :java.sql.SQLException: Subquery returns more than 1 row
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+2
+2
+up1
+up2
+com.mysql.cj.jdbc.CallableStatement: CALL get_available_amount(2)
+Issues :java.sql.SQLException: Subquery returns more than 1 row
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+5
+10
+up
+up
+com.mysql.cj.jdbc.ClientPreparedStatement: Update available_blood set Amount_Available = Amount_Available + 10 Where BloodGroup = ( Select BloodGroup from donors where id = 5)
+1
+Available
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+3
+3
+up1
+up2
+com.mysql.cj.jdbc.CallableStatement: CALL get_available_amount(3)
+Issues :java.sql.SQLException: Subquery returns more than 1 row
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+3
+1
+up1
+up2
+com.mysql.cj.jdbc.CallableStatement: CALL get_available_amount(3)
+Issues :java.sql.SQLException: Subquery returns more than 1 row
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+3
+2
+up1
+up2
+com.mysql.cj.jdbc.CallableStatement: CALL get_available_amount(3)
+up3
+12
+Issues :java.sql.SQLException: Subquery returns more than 1 row
+Available
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+3
+2
+up1
+up2
+com.mysql.cj.jdbc.CallableStatement: CALL get_available_amount(3)
+up3
+12
+Available
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+3
+1
+up1
+up2
+com.mysql.cj.jdbc.CallableStatement: CALL get_available_amount(3)
+up3
+10
+Available
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+4
+2
+up1
+up2
+com.mysql.cj.jdbc.CallableStatement: CALL get_available_amount(4)
+up3
+4
+Available
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Leta
+Mendoza
+42
+1360743475
+true
+true
+age int hai toh if
+true
+True
+age ka range ka if agar int hua toh
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+11
+10
+up
+up
+com.mysql.cj.jdbc.ClientPreparedStatement: Update available_blood set Amount_Available = Amount_Available + 10 Where BloodGroup = ( Select BloodGroup from donors where id = 11)
+1
+Available
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Scott
+Knight
+63
+1391192878
+true
+true
+age int hai toh if
+true
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Carter
+Chapman
+52
+1434364213
+true
+true
+age int hai toh if
+true
+True
+age ka range ka if agar int hua toh
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+12
+6
+up
+up
+com.mysql.cj.jdbc.ClientPreparedStatement: Update available_blood set Amount_Available = Amount_Available + 6 Where BloodGroup = ( Select BloodGroup from donors where id = 12)
+1
+Available
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+7
+2
+up1
+up2
+com.mysql.cj.jdbc.CallableStatement: CALL get_available_amount(7)
+up3
+20
+Available
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Judy
+Edwards
+20
+1347534143
+true
+true
+age int hai toh if
+true
+True
+age ka range ka if agar int hua toh
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+13
+5
+up
+up
+com.mysql.cj.jdbc.ClientPreparedStatement: Update available_blood set Amount_Available = Amount_Available + 5 Where BloodGroup = ( Select BloodGroup from donors where id = 13)
+1
+Available
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Dylan
+Warren
+70
+1136719515
+true
+true
+age int hai toh if
+true
+saab
+true
+inside all fine true
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+1
+q
+1
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+8
+2
+up1
+up2
+com.mysql.cj.jdbc.CallableStatement: CALL get_available_amount(8)
+up3
+7
+Available
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+7
+20
+up1
+up2
+com.mysql.cj.jdbc.CallableStatement: CALL get_available_amount(7)
+up3
+18
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Admin
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+1
+50
+up1
+up2
+com.mysql.cj.jdbc.CallableStatement: CALL get_available_amount(1)
+up3
+1
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Admin
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+1
+60
+up1
+up2
+com.mysql.cj.jdbc.CallableStatement: CALL get_available_amount(1)
+up3
+1
+
+C:\DEMO\MYSQL\BloodDonationSystem>javac *.java
+Note: Admin_Login.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+C:\DEMO\MYSQL\BloodDonationSystem>java -cp .;mysql-connector-java-8.0.13.jar Admin_Login
+Loading..
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Admin
+Loading..
+Loaded
+Connecting..
+Conected
+13
+10
+up
+up
+com.mysql.cj.jdbc.ClientPreparedStatement: Update available_blood set Amount_Available = Amount_Available + 10 Where BloodGroup = ( Select BloodGroup from donors where id = 13)
+1
+Available
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+Loading..
+Loaded
+Connecting..
+Conected
+Closing..
+Closed
+
+C:\DEMO\MYSQL\BloodDonationSystem>
